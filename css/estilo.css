@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+.a{
+text-decoration:none;	
+}
+
+.bradius{
+ border-radius: 6px;
+-webkit-border-radius:6px;
+-moz-border-radius:6px;
+}
+
+.txt{
+border:none;	
+height:25px;
+width:400px;
+border:thin solid #CCC;
+
+}
+
+.txt:focus{
+border:thin solid #373737;
+box-shadow:0 2px 5px #373737;
+-webkit-box-shadow:0 2px 5px #373737
+-moz-box-shadow:0 2px 5px #373737;
+}
+
+.sb{
+border:none;	
+display:block;
+width:288px;
+height:155px;
+margin-top:10px;
+cursor:pointer;
+font:400 18px Oswald;
+color:#373737;
+
+}
+
+.sb:hover{
+background:#373737;
+color:#FFF;
+
+}
+
+.txt,.txt:focus,.sb,.sb:hover{
+transition:linear all 0.3s linear;
+-webkit-transition: all 0.3s linear;
+-moz-transition: all 0.3s linear;
+}
+
